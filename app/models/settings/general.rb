@@ -1,5 +1,6 @@
 module Settings
   class General < Base
+    # put these constants in a separate file
     BANNER_USER_CONFIGS = %w[off logged_out_only all].freeze
     BANNER_PLATFORM_CONFIGS = %w[off all all_web desktop_web mobile_web mobile_app].freeze
 
